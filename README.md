@@ -1,20 +1,16 @@
 ---
 
 # **Hybrid Metric Selection for Software Defect Prediction**
-📌 **Repository for Implementing and Evaluating Software Defect Prediction Models**  
+📌 **Repository for implementing and evaluating Software Defect Prediction models**  
 
 This repository contains implementations of various **software defect prediction (SDP) models** using different **algorithm and dataset combinations**. The goal is to compare feature selection techniques, and analyze their effectiveness in improving defect prediction accuracy.
-
----
-
-Here is the **updated and complete list** of **implemented algorithms** in the README:
 
 ---
 
 ## **📊 Implemented Algorithms**
 This repository includes various **feature selection techniques** for software defect prediction, ranging from **filter methods** (statistical-based) to **wrapper methods** (optimization-based).  
 
-| **Algorithm** | **Feature Selection Type** | **Description** |
+| **Algorithm** | **Type** | **Description** |
 |--------------|--------------------------|----------------|
 | **CHIGA (Chi-square Genetic Algorithm)** | Hybrid | A **hybrid metric selection technique** that combines a **filter method (Chi-square ranking)** with a **wrapper method (Genetic Algorithm)** for metric subset selection. CHIGA balances **statistical rigor** with **evolutionary optimization** to improve model generalizability. |
 | **Chi-square (CS)** | Filter | Uses the **Chi-square statistic** to compute the independence between features and the target variable. Higher Chi-square values indicate stronger relationships, making the metric more important for defect prediction. |
