@@ -1,6 +1,6 @@
 ---
 
-# **Software Defect Prediction - Algorithm Implementations**
+# **Hybrid Metric Selection for Software Defect Prediction**
 📌 **Repository for Implementing and Evaluating Software Defect Prediction Models**  
 
 This repository contains implementations of various **software defect prediction (SDP) models** using different **algorithm and dataset combinations**. The goal is to compare feature selection techniques, and analyze their effectiveness in improving defect prediction accuracy.
